@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A reflective quiz about social patterns—not a label." />
+    <title>Are you a pick me girl? — Quiz</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <p class="site-title" id="siteTitle">Are you a pick me girl?</p>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-switch__btn" data-locale="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-switch__btn" data-locale="uk" aria-pressed="false">UK</button>
+        </div>
+      </div>
+      <p class="site-tagline" id="siteTagline"></p>
+    </header>
+
+    <main id="main" class="main">
+      <section id="quizSection" class="panel" aria-labelledby="progressLabel">
+        <div class="progress" aria-live="polite">
+          <span id="progressLabel" class="progress__text"></span>
+          <div
+            class="progress__bar"
+            id="progressBar"
+            role="progressbar"
+            aria-labelledby="progressLabel"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+          ></div>
+        </div>
+
+        <form id="quizForm" class="quiz-form" novalidate>
+          <fieldset class="question-fieldset">
+            <legend class="question-legend" id="questionLegend"></legend>
+            <div id="answersContainer" class="answers"></div>
+          </fieldset>
+
+          <div class="nav-row">
+            <button type="button" class="btn btn--ghost" id="btnBack" hidden>Back</button>
+            <button type="button" class="btn btn--primary" id="btnNext" disabled>Next</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="resultsSection" class="panel panel--results" hidden aria-live="polite">
+        <h1 class="results__title" id="resultTitle"></h1>
+        <p class="results__body" id="resultBody"></p>
+        <details class="results__details" id="scoreDetails">
+          <summary id="scoreSummaryLabel"></summary>
+          <p id="resultScoreLine" class="results__score"></p>
+        </details>
+        <button type="button" class="btn btn--primary" id="btnRestart">Start over</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footerNote" class="site-footer__text"></p>
+    </footer>
+
+    <script src="js/quiz-data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
