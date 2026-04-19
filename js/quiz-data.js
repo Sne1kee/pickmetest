@@ -124,7 +124,7 @@
           { text: { en: "Futuristic / modern style", uk: "Футуристичний / сучасний стиль" }, pickMePoints: 0 },
           { text: { en: "Nature / cute style", uk: "Природа / милий стиль" }, pickMePoints: 12 },
           { text: { en: "Steampunk style", uk: "Стімпанк" }, pickMePoints: 0 },
-          { text: { en: "Asian-ethno style (Kuronami)", uk: "Азійсько-етно стиль (Kuronami)" }, pickMePoints: 9 },
+          { text: { en: "Asian-ethno style (Kuronami)", uk: "Азійський-етно стиль (Kuronami)" }, pickMePoints: 9 },
         ],
       },
       {
@@ -135,7 +135,7 @@
         },
         answers: [
           { text: { en: "Report + mute don’t feed the troll", uk: "Репорт + мʼют не годую троля" }, pickMePoints: 0 },
-          { text: { en: "One calm fact, then queue", uk: "Один спокійний факт — і в чергу" }, pickMePoints: 5 },
+          { text: { en: "One calm fact and frik them", uk: "Один спокійний факт, і пішли вони" }, pickMePoints: 5 },
           { text: { en: "Pop off to prove MY aim", uk: "Включаюся, щоб довести СВІЙ аім" }, pickMePoints: 12 },
         ],
       },
@@ -148,8 +148,8 @@
         answers: [
           { text: { en: "Rank or other random suff, that’s it", uk: "Ранг або всілякі рандомні штучки, і все" }, pickMePoints: 0 },
           { text: { en: "Funny one-liner", uk: "Жартівлива теза" }, pickMePoints: 2 },
-          { text: { en: "“Chill girl who carries sometimes”", uk: "«Чілова дівчина, інколи несе»" }, pickMePoints: 8 },
-          { text: { en: "“Not like other egirls”", uk: "«Не як інші e-girlи" }, pickMePoints: 12 },
+          { text: { en: "“Chill girl who carries sometimes”", uk: "«Чілова дівчина, інколи кєрить гру»" }, pickMePoints: 8 },
+          { text: { en: "“Not like other egirls”", uk: "«Не така як інші e-girlи" }, pickMePoints: 12 },
         ],
       },
       {
@@ -178,7 +178,7 @@
       {
         min: 25,
         max: 49,
-        title: { en: "Casual cutie", uk: "Казуальний головний герой" },
+        title: { en: "Casual cutie", uk: "Няшна кюті" },
         body: {
           en: "A sprinkle of cutie energy—harmless especially if you laugh at yourself too.",
           uk: "Трохи енергії «кюті» — норм, якщо ще й над собою смієшся топ.",
@@ -190,7 +190,7 @@
         title: { en: "Ranked pick-me arc", uk: "Ранкед pick-me" },
         body: {
           en: "Several picks skew toward approval + contrast. Competitivly strong pick-me.",
-          uk: "Кілька відповідей тягнуть на схвалення + контраст. Пікмі. змагального рівня",
+          uk: "Кілька відповідей тягнуть на схвалення + контраст. Пікмі змагального рівня",
         },
       },
       {
@@ -205,7 +205,7 @@
       {
         min: 100,
         max: 120,
-        title: { en: "Legendary lore drop", uk: "Легендарний лор" },
+        title: { en: "Legendary lore drop", uk: "Легендарний пікмі лор" },
         body: {
           en: "Max chaos score. You’re either iconic or need and a solo queue break.",
           uk: "Максимум пікмі хаосу. Ти або ікона, або треба зробити перерву в соло-кю.",
