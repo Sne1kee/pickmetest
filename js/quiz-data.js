@@ -143,7 +143,7 @@
         id: "status",
         text: {
           en: "Which status/bio line fits you best (even ironically)?",
-          uk: "Який статус/біо найбільше личить тобі найбільше (навіть іронічно)?",
+          uk: "Який статус/біо личить тобі найбільше (навіть іронічно)?",
         },
         answers: [
           { text: { en: "Rank or other random suff, that’s it", uk: "Ранг або всілякі рандомні штучки, і все" }, pickMePoints: 0 },
