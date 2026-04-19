@@ -91,12 +91,12 @@
       {
         id: "topfrag",
         text: {
-          en: "A girl on your team top-frags the match. Closest reaction?",
-          uk: "Дівчина в команді топфрагить матч. Твоя реакція?",
+          en: "Another girl on your team top-frags the match. Closest reaction?",
+          uk: "Інша дівчина в команді топфрагить матч. Твоя реакція?",
         },
         answers: [
           { text: { en: "Act unimpressed", uk: "Вдаю байдужість" }, pickMePoints: 12 },
-          { text: { en: "GG — props in chat", uk: "GG — респект у чаті" }, pickMePoints: 0 },
+          { text: { en: "WP — props in chat", uk: "WP — респект у чаті" }, pickMePoints: 0 },
           { text: { en: "Stay quiet, it’s whatever", uk: "Мовчу" }, pickMePoints: 2 },
           { text: { en: "She got lucky/enemies threw", uk: "Пощастило/вороги нафідили її" }, pickMePoints: 8 },
         ],
