@@ -83,7 +83,7 @@
         },
         answers: [
           { text: { en: "Yes", uk: "Так" }, pickMePoints: 12 },
-          { text: { en: "Of course, who would not?", uk: "Звісно кому б не сподобалося?" }, pickMePoints: 9 },
+          { text: { en: "Of course, who would not?", uk: "Звісно, кому б не сподобалося?" }, pickMePoints: 9 },
           { text: { en: "Nah", uk: "Неа" }, pickMePoints: 3 },
           { text: { en: "No", uk: "Ні" }, pickMePoints: 0 },
         ],
@@ -92,20 +92,20 @@
         id: "topfrag",
         text: {
           en: "A girl on your team top-frags the match. Closest reaction?",
-          uk: "Дівчина в команді топфрагить матч. Найближча реакція?",
+          uk: "Дівчина в команді топфрагить матч. Твоя реакція?",
         },
         answers: [
           { text: { en: "Act unimpressed", uk: "Вдаю байдужість" }, pickMePoints: 12 },
-          { text: { en: "GG—props in chat", uk: "GG — респект у чаті" }, pickMePoints: 0 },
+          { text: { en: "GG — props in chat", uk: "GG — респект у чаті" }, pickMePoints: 0 },
           { text: { en: "Stay quiet, it’s whatever", uk: "Мовчу" }, pickMePoints: 2 },
-          { text: { en: "She got lucky | enemies threw", uk: "Пощастило | вороги нафідили її" }, pickMePoints: 8 },
+          { text: { en: "She got lucky/enemies threw", uk: "Пощастило/вороги нафідили її" }, pickMePoints: 8 },
         ],
       },
       {
         id: "duo",
         text: {
           en: "Your duo adds a random boy and suddenly you’re third wheel in comms. You…",
-          uk: "Дуо додає рандомного хлопця — ти третя в комсах. Ти…",
+          uk: "Дуо додає рандомного хлопця — ти третя у войсі. Ти…",
         },
         answers: [
           { text: { en: "Talk louder, try to joke more", uk: "Говорю голосніше, спробую жартувати більше" }, pickMePoints: 9 },
@@ -135,7 +135,7 @@
         },
         answers: [
           { text: { en: "Report + mute don’t feed the troll", uk: "Репорт + мʼют не годую троля" }, pickMePoints: 0 },
-          { text: { en: "One calm fact and frik them", uk: "Один спокійний факт, і пішли вони" }, pickMePoints: 5 },
+          { text: { en: "One calm fact and friсk them", uk: "Один спокійний факт, і пішли вони" }, pickMePoints: 5 },
           { text: { en: "Pop off to prove MY aim", uk: "Включаюся, щоб довести СВІЙ аім" }, pickMePoints: 12 },
         ],
       },
@@ -149,7 +149,7 @@
           { text: { en: "Rank or other random suff, that’s it", uk: "Ранг або всілякі рандомні штучки, і все" }, pickMePoints: 0 },
           { text: { en: "Funny one-liner", uk: "Жартівлива теза" }, pickMePoints: 2 },
           { text: { en: "“Chill girl who carries sometimes”", uk: "«Чілова дівчина, інколи кєрить гру»" }, pickMePoints: 8 },
-          { text: { en: "“Not like other egirls”", uk: "«Не така як інші e-girlи" }, pickMePoints: 12 },
+          { text: { en: "“Not like other egirls”", uk: "«Не така як інші e-girlи»" }, pickMePoints: 12 },
         ],
       },
       {
